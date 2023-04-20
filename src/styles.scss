@@ -1,1 +1,123 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.section.is-primary {
+  background-color: #6e07f3;
+  color: white;
+}
+
+@media screen and (min-width: 769px) {
+  .section.skills .box .content .columns .column {
+    border-bottom: 0px solid #e6ecf8;
+    border-right: 1px solid #e6ecf8;
+    padding: 60px 35px;
+  }
+
+  .section.startups {
+    padding-bottom: 9rem;
+    margin-top: -14rem;
+  }
+
+  .section.is-long-ish {
+    padding-bottom: 13rem;
+  }
+}
+.section.skills {
+  margin-top: -14rem;
+  padding-bottom: 1rem;
+}
+
+.section.skills .box .content .columns .column:last-child {
+  border-right: none;
+  border-bottom: none;
+}
+
+.section {
+  padding: 5rem 1.5rem;
+  padding-bottom: 5rem;
+  display: block;
+}
+
+.section.skills .box .content .columns .column p.list-title {
+  margin-top: 50px;
+  margin-bottom: 8px;
+}
+
+.section.skills .box .content .columns .column ul {
+  list-style: none;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 769px) {
+  .section.is-long {
+    padding-bottom: 16rem;
+  }
+}
+
+.section.call-to-action {
+  padding: 5rem 1.5rem 2rem;
+}
+
+.section.is-primary {
+  background-color: #6e07f3;
+  color: white;
+}
+
+.section.call-to-action .box {
+  padding: 3.5rem 2rem;
+  margin-top: -9rem;
+  background-color: #141c3a;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #141c3a;
+}
+
+.projects .project-grid figure figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0rem 3rem;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.projects .project-grid .overlay,
+.projects .project-grid figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.45s ease-in-out;
+}
+
+.projects .project-grid figure img.project-thumb {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition: 0.25s ease-in-out;
+}
+
+.projects .project-grid figure figcaption h1.title {
+  color: #ffffff;
+  margin-bottom: 1.8rem;
+  font-weight: 500;
+}
+
+.projects .project-grid figure figcaption {
+  padding: 0rem 2rem;
+}
+
+.projects .project-grid figure {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.image.is-3by2 {
+  padding-top: 66.6666%;
+}
+.image {
+  display: block;
+  position: relative;
+}
